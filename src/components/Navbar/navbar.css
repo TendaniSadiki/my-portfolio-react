@@ -23,12 +23,12 @@
     display: inline-block;
     margin: 20px;
 }
-.NavbarContent nav ul li a{
+.NavbarContent nav ul li .links{
     text-decoration: none;
     color: white;
 
 }
-.NavbarContent nav ul li a:hover{
+.NavbarContent nav ul li .links:hover{
     border-bottom: 5px solid rgb(122, 118, 118);
     
 }

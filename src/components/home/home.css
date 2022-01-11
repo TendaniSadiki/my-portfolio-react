@@ -1,8 +1,26 @@
+
+@media (max-width: 900px) {
+    .home{
+        background: rgb(6, 9, 36);
+        display: flex;
+        height:510px;
+        padding-top:40px;
+        position: relative;
+        
+    }
+    .home h1{
+        font-weight: 900;
+        font-size: 35px;
+        margin: 0;
+        color: white;
+        padding: 20px;
+    }    
+}
 .home{
     background: rgb(6, 9, 36);
     display: flex;
-    height:463px;
-    padding-top:50px;
+    height:510px;
+    padding-top:40px;
     position: relative;
     
 }
@@ -12,5 +30,4 @@
     margin: 0;
     color: white;
     padding: 20px;
-}
-
+} 
