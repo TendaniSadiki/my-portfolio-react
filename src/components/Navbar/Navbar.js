@@ -3,8 +3,9 @@ import './navbar.css'
 function Navbar() {
     return (
         <div className='NavbarContent'>
-            <h3>Title</h3>
+            
                 <nav>
+                
                     <ul>
                         <li>
                             <a href='/'>Home</a>
