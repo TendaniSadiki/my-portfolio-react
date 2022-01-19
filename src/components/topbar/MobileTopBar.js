@@ -15,7 +15,7 @@ export default function MobileTopBar(){
         {open ? closeMenu: openMenu}    
         { open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
         <div className="titleContent">
-                <h3>Title</h3>
+                <h3>Code with Ed</h3>
             </div>
         </nav>
             

@@ -4,6 +4,10 @@
   .Navigation{
     display: none;
   }
+  .MobileTopBar .titleContent{
+    color: rgba(0, 0, 0, 0.74);
+    padding: 5px;
+  }
   .MobileTopBar{
     display: flex;
     background: rgb(100,212,221);
@@ -63,6 +67,16 @@
   position: fixed;
   left: 0;
 }
+.Navigation .titleContent{
+  color: rgba(0, 0, 0, 0.74);
+  position: absolute;
+  right: 5%;
+  top: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
 /*Break none*/
 .Navigation .linksContainer br{
   display: none;
