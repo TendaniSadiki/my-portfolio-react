@@ -8,7 +8,7 @@ function Home() {
             <div>
            <h1>Hi, Welcome to my website</h1>
                 <div className='homeContent'>
-                    
+                    <h1> Under Construction</h1>
                 </div>
             </div>
         </div>
