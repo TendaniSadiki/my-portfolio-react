@@ -17,10 +17,10 @@ function App() {
       <div>
       <Routes>
       <Route path="*" element={<Home />} exact />
-      <Route path="Home" element={<Home />} exact />
-        <Route path="About" element={<About />} exact />
-        <Route path="Youtube" element={<Youtube />} exact />
-        <Route path="Contact" element={<Contact />} exact />
+      <Route path="/Home" element={<Home />} exact />
+        <Route path="/About" element={<About />} exact />
+        <Route path="/Youtube" element={<Youtube />} exact />
+        <Route path="/Contact" element={<Contact />} exact />
       </Routes>
       <Topbar/>
       
