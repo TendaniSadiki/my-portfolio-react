@@ -16,11 +16,10 @@ function App() {
     <div className="App">
       <div>
       <Routes>
-      <Route path="*" element={<Home />} />
-        <Route path="Home" element={<Home />} />
-        <Route path="About" element={<About />} />
-        <Route path="Youtube" element={<Youtube />} />
-        <Route path="Contact" element={<Contact />} />
+      <Route path="*" element={<Home />} exact />
+        <Route path="About" element={<About />} exact />
+        <Route path="Youtube" element={<Youtube />} exact />
+        <Route path="Contact" element={<Contact />} exact />
       </Routes>
       <Topbar/>
       
