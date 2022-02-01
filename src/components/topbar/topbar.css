@@ -1,13 +1,7 @@
 /*Mobile*/
-
 @media (max-width: 900px) {
   .Navigation{
     display: none;
-  }
-  .MobileTopBar .titleContent{
-    color: rgba(0, 0, 0, 0.74);
-    padding: 5px;
-    font-size: 10px;
   }
   .MobileTopBar{
     display: flex;
@@ -57,9 +51,11 @@
     background: #181818;
     width: 100%;
   }
+
 }
 /*Computer screen*/
 @media (min-width: 900px) {
+
 .Navigation{
   width: 100%;
   background: rgb(100,212,221);
@@ -68,16 +64,6 @@
   position: fixed;
   left: 0;
 }
-.Navigation .titleContent{
-  color: rgba(0, 0, 0, 0.74);
-  position: absolute;
-  right: 5%;
-  top: 0;
-  font-size: 1rem;
-  cursor: pointer;
-  
-}
-
 /*Break none*/
 .Navigation .linksContainer br{
   display: none;
@@ -93,16 +79,9 @@
   border-bottom: 2px solid rgb(255, 255, 255);
   color:black;
   }
-  
-/*Sign out button*/
-.Navigation .linksContainer .signout{
-  position: absolute;
-  right: 5%;
-  padding: 8px;
-  font-size: 1rem;
-}
   .MobileTopBar{
     display: none;
   }
-
 }
+
+

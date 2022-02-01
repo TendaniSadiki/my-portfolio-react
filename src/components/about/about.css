@@ -1,59 +1,109 @@
+/*Pc*/
 @media (min-width: 900px) {
-.about{
-    background: rgb(6, 9, 36);
-    height:663px;
-    padding-top:50px;
-    position: relative;
+    .home{
+        background: rgb(255, 255, 255);
+        display: flex;
+        height:100vh;
+        overflow: hidden;
+        
+    }
+    .home .aboutmeContentLeftContent{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d4ff13;
+        width: 100%;
+        height: 100%;
+    }
+    .home .aboutmeContentrightContent{
+        flex: 1;
+        position: relative;
+    }
+    .home .aboutmeContentLeftWrapper{
+        padding: 50px;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+   
+    .home .aboutmeContentTitles{
+        height: 50px;
+        overflow: hidden;
+    }
+    .home .aboutmeContentTitleWrapper{
+        height: 100%;
+        animation: move 10s ease-in-out infinite alternate;
+
+    }
+    @keyframes move {
+        25%{
+            transform: translateY(-50px);
+        }
+        50%{
+            transform: translateY(-100px);
+        }
+        100%{
+            transform: translateY(-150px);
+        }
+    }
+    .home .aboutmeContentTitleItem{
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #9db91f;
+        align-items: center;
+        display: flex;
+        
+    }
+    .home .aboutmeContentintro{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .home .aboutmeContentmyName{
+        font-size: 60px;
+    }
+   
+    .home .aboutmeContentimgContent .aboutimg{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        position: absolute;
     
-}
-.about h1{
-    font-weight: 900;
-    font-size: 35px;
-    margin: 0;
-    color: white;
-    padding: 20px;
-}
-.about .imgContent .aboutimg{
-    width: 500px;
-    height: 500px;
-    padding: 5px;
+    } 
+    .home .aboutmeContentimgline{
+        clip-path: polygon(100% 0% , 100% 5%, 100% 100%, 25% 100%, 0% 100%, 5% 0%);
+        width: 100%;
+        height: 100%;
+        background-color: #9db91f;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 
-} 
-.aboutmeContent {
-
-background-color: aqua;
-width: 500px;
-right: 20;
 
 }
-.aboutmeContent p{
-    color: white;
-}
-
-}
-
+/*Mobile*/
 @media (max-width: 900px) {
-.about .imgContent .aboutimg{
-    width: 150;
-    height: 150px;
-    
-    border-radius: 15px;
+    .about{
+        background: rgb(255, 255, 255);
+        height:150vh;
+        padding-top:50px;
+        position: relative;
+        
+    }
+    .aboutmeContent .aboutmeContentLeft{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: yellow;
+        width: 100%;
+        height: 100vh;
+    }
 
-} 
-.about{
-    background: rgb(6, 9, 36);
     
-    height:663px;
-    padding-top:50px;
-    position: relative;
-    
-}
-.about h1{
-    font-weight: 900;
-    font-size: 35px;
-    margin: 0;
-    color: white;
-    padding: 20px;
-}
 
 }

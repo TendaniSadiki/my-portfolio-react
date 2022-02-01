@@ -21,7 +21,6 @@ function Home() {
                 </div>
             </div>
 
-
             <div className='rightContent'>
                 <div className='leftWrapper'>
                     <div className='imgContent'>
@@ -30,6 +29,8 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <br></br>
+            <br></br>
         </div>
     )
 }

@@ -4,8 +4,7 @@
         background: rgb(255, 255, 255);
         display: flex;
         height:100vh;
-    
-        
+        overflow: hidden;
         
     }
     .home .leftContent{
@@ -82,13 +81,19 @@
     }
 
 /*Mobile*/
-@media (max-width: 900px) {    .home{
+@media (max-width: 900px) {    
+    .home{
         flex-direction: column;
+        
         
     }
     .home .imgContent .aboutimg{
         left: 0;
+        
     }
+    .home{
+    height:150vh;
+}
     
     
 }
